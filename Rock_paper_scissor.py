@@ -29,4 +29,5 @@ while True:
             print("you win!", player, "beats", computer)
     else:
         print("check your spelling...")
+        
 
