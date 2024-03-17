@@ -3,19 +3,20 @@
 score = int(input("enter score:"))
 grade = ""
 
-if (score >= 80):
+if score > 90:
     grade = "A"
 
-elif (score >= 60):
+elif score > 70 < 90:
     grade = "B"
 
-elif (score >= 50):
+elif score > 50 < 70:
     grade = "C"
 
-elif (score >= 40):
+elif score > 30 < 50:
     grade = "D"
 
-elif (score >= 30):
+elif score > 20:
     grade = "E"
 
     print(grade)
+    print (score)
