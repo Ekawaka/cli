@@ -1,6 +1,6 @@
 from pytube import YouTube
-import tkinter as tk 
-from tkinter import  filedialog # used to get directory of where to save the file.
+import tkinter  
+import customtkinter
 
 # To download youtube video  we need the url and the path where we are going to save the video.
 def download_video(url, save_path):
